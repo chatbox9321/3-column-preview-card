@@ -1,0 +1,78 @@
+body {
+  background-color: white;
+}
+
+.neel {
+  width:1440px;
+  height:1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {width:20%;
+      height:40%;
+      text-align: left;
+      padding: 50px 30px 15px 40px;
+     background-color:hsl(31, 77%, 52%); }
+
+.two {width:20%;
+     height:40%;
+     text-align: left;
+     padding: 50px 30px 15px 40px;
+   background-color:hsl(184, 100%, 22%); }
+
+.three {width:20%;
+        height: 40%;
+        text-align: left;
+        padding: 50px 30px 15px 40px;
+      background-color: hsl(179, 100%, 13%); }
+
+svg {margin-bottom: 20px;}
+
+.orange {
+   color:hsl(31, 77%, 52%);
+}
+
+.blue {
+  color:hsl(184, 100%, 22%);
+}
+
+.green {
+  color: hsl(179, 100%, 13%);
+
+}
+
+#ten, #twenty, #thirty {
+  border-radius: 1.15rem;
+  margin-top: 0.85rem;
+
+}
+
+.tag {
+  margin-bottom: 1.25rem;
+}
+
+
+.big {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.18rem;
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.para {
+  margin-bottom: 3.7rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color:hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 400px) {
+
+.neel {
+  flex-direction: column;
+  align-items:center;
+}
+}
